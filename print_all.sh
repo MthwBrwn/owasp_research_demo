@@ -7,6 +7,6 @@ c = conn.cursor()
 
 print("Without exploiting injection vunerability: \n")
  
-c.execute("SELECT * from students Where Name='Robert'")
+c.execute("SELECT * from students")
 result = c.fetchall()
 print(result)
